@@ -16,7 +16,10 @@
     --white: #FFFFFF;
     --light-bg: #F8FAFC;
     --text-dark: #1E293B;
-    --text-muted: #64748B;
+    .text-muted {
+    --bs-text-opacity: 1;
+    color: rgb(255 255 255 / 75%) !important;
+}
     --text-light: #E2E8F0;
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Outfit', sans-serif;
